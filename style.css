@@ -1,0 +1,56 @@
+*{font-family: 'Microsoft YaHei UI';font-size: 14px;margin: 0;padding:0;border: none;}
+a{text-decoration: none;}
+ul{list-style: none;}
+h1{color: #f46208;text-align: center;font-size: 48px;line-height: 70px;letter-spacing: 5px;}
+p{text-align: center;line-height: 40px;margin-bottom: 20px;}
+.All_container{width: 100%;min-width: 1200px;}
+/*header*/
+header{position: relative;height: 80px;background: #2e2e2e;width: 100%;min-width: 1200px;}
+header > .container{position: relative;z-index: 1;width: 100%;min-width: 1200px;margin: 0 auto;}
+/*logo*/
+header > .container > a{display: block;float: left;margin: 20px 0 0 10%;}
+/*导航项*/
+header > .container > nav{float: right;margin: 20px 10% 0 0;}
+header > .container >nav > a{color: #ffffff;line-height: 30px;display: block;float: left;width: 110px;height: 30px;text-align: center;}
+header > .container >nav > a:hover{color: black;background-color: red;}
+
+/*banner*/
+.banner {position: relative;z-index: -2;}
+/*.banner > img*/
+.banner_img{position: relative;z-index: -1;margin: 0;width: 100%;min-width: 1200px;}
+/*banner上的标题*/
+.banner_p{z-index: 1;position: absolute;top: 40%;left: 0;right: 0;margin: auto;color: white;}
+.banner_h1{font-size: 48px;line-height: 48px;color: white;z-index: 1;position: absolute;display: block;text-align: center;width: 100%;min-width: 1200px;float: left;}
+
+/*section  main*/
+.main{width: 100%;min-width: 1200px;margin-top: 30px;}
+/*protfolio*/
+.main > .protfolio{width: 1200px;height: 200px;width: 100%;min-width: 1200px;}
+.main > .protfolio > nav{margin: 10px 0 30px 33%;width: 62%;min-width: 744px;float: left;} 
+.main > .protfolio >  nav > a{line-height: 30px;display: block;float: left;width: 10%;height: 30px;text-align: center;color: #f46208;border: 1px solid;margin-left: 10px;}
+.protfolio_img{margin: 0;width: 100%;min-width: 1200px;}
+.main > .protfolio > .protfolio_img >img{width: 100%;min-width: 1200px;height: 763px;}
+/*stats*/
+.main > .stats {width: 100%;min-width: 1200px;margin-top: 830px;}
+.main > .stats > .clearfix::after{display: block;content: "";clear: both;}
+.main > .stats > .stats_icon_con{width: 700px;height:140px;margin: 0 auto;}
+.main > .stats > .stats_icon_con > .stats_icon{width: 80px;height:100px;padding: 45px; float: left; text-align: center;}
+/*team*/
+.main > .team{margin-top: 70px;background-color: #2e2e2e;color: #fff;height: 600px;}
+.main > .team > h1{line-height: 130px;}
+.main > .team > .team_con{width: 950px;height: 310px;margin: 0 auto;}                                                                                                                                                   position: relative;display: block;margin: -300px 0 0 62.2%;}
+.main>  .team > .team_con >.team_con_info{width: 216px;height: 280px;float: left;padding: 50px; text-align: center;}
+
+/*contact us*/
+.main > .contact_us{margin-top: 30px;}
+.main > .contact_us > form{margin-top: 70px;width: 60%;min-width: 720px;height: 500px;margin: 30px auto;}
+.main > .contact_us > form > p{text-align: inherit;}
+.form_full_name{margin: 30px auto auto 22%;width: 26%;height: 30px;border:thin solid gray;}
+.form_email{margin: 30px auto auto 1.5%;width: 26%;height: 30px;border:thin solid gray;}
+.form_textarea{margin: 30px auto auto 22%;width: 54%;height: 310px;border:thin solid gray;}
+.form_submit{margin: 30px auto auto 42.5%;width: 15%;height: 40px;background-color: #f46208;color: white;}
+.form_submit:hover{cursor: pointer;}
+/*footer*/
+footer{width: 100%;min-width: 1200px;position: relative;background-color: #000;margin: 0;}
+footer > .container{width: 1200px;height: 60px;margin: 0 auto;}
+footer > .container > p{line-height: 60px;color: #fff;text-align: center;}
